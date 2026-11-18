@@ -1,0 +1,9 @@
+name: starsling-prep
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  prep:
+    runs-on: starsling-ubuntu-26.04
+    steps:
+      - run: echo "starsling-prep ok"
